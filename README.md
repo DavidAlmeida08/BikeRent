@@ -1,6 +1,8 @@
 # BikeRent
 
-Projeto de Algoritmos e Programação do grupo AK.
+Projeto da UC Algoritmos e Programação do grupo AK.
+Licenciatura em Engenharia Informática.
+ESTGV - UPV
 
 ## Sobre o projeto
 
@@ -18,6 +20,6 @@ Os clientes podem levantar uma bicicleta e devolvê-la mais tarde. O valor do al
 - Martim Rua — 35092
 - Nancy Saúde — 35091
 
-## Ano
+## Ano 
 
 2026

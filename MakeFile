@@ -1,0 +1,23 @@
+CC=gcc
+CFLAGS=-std=c17 -Wall -Werror -pedantic -D_FORTIFY_SOURCE=2 -O0
+LDLIBS=
+
+SRC=src
+BIN=bin
+TARGET=$(BIN)/main
+
+SRCS=$(wildcard $(SRC)/*.c)
+HDRS=$(wildcard $(SRC)/*.h)
+
+.PHONY: all clean
+
+all: $(TARGET)
+
+$(TARGET): $(SRCS) $(HDRS) | $(BIN)
+	$(CC) $(CFLAGS) -o $@ $(SRCS) $(LDLIBS)
+
+$(BIN):
+	mkdir -p $@
+
+clean:
+	$(RM) $(BIN)

@@ -6,7 +6,7 @@ ESTGV - UPV
 
 ## Sobre o projeto
 
-A BikeRent é uma aplicação para gerir uma loja de aluguer de bicicletas. A frota inclui bicicletas de vários tipos — BTT, estrada, elétrica e infantil —, cada uma identificada por um número e com um dos seguintes estados:
+A BikeRent é uma aplicação para gerir uma loja de aluguer de bicicletas. A frota inclui bicicletas de vários tipos — BTT, estrada, elétrica e infantil, cada uma identificada por um número e com um dos seguintes estados:
 
 - Disponível
 - Alugada

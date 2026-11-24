@@ -1,9 +1,6 @@
 #ifndef BIKERENT_H
 #define BIKERENT_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include <stdint.h>
 
 // Ints
@@ -22,5 +19,11 @@ typedef double f64;
 // Boolean
 typedef i8 b8;
 typedef i32 b32;
+
+typedef struct{
+    char* type;
+    u32 id;
+    char state;
+} BIKE
 
 #endif // BIKERENT_H

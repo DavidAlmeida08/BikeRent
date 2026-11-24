@@ -4,7 +4,5 @@
 #include "../headers/utils.h"
 
 int main() {
-    FILE* f = safe_fopen(BICICLETAS_TXT, "r");
-    printf("%p", (void*)f);
     return 0;
 }

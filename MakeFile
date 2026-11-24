@@ -7,7 +7,7 @@ BIN=bin
 TARGET=$(BIN)/main
 
 SRCS=$(wildcard $(SRC)/*.c)
-HDRS=$(wildcard $(SRC)/*.h)
+HDRS=$(wildcard headers/*.h)
 
 .PHONY: all clean
 
@@ -20,4 +20,4 @@ $(BIN):
 	mkdir -p $@
 
 clean:
-	$(RM) $(BIN)
+	$(RM) $(TARGET)
